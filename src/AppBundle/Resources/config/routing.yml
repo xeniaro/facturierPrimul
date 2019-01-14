@@ -1,0 +1,23 @@
+app_address:
+    resource: "@AppBundle/Resources/config/routing/address.yml"
+    prefix:   /address
+    
+app_product:
+    resource: "@AppBundle/Resources/config/routing/product.yml"
+    prefix:   /product
+    
+app_partner:
+    resource: "@AppBundle/Resources/config/routing/partner.yml"
+    prefix:   /partner
+
+app_warehouse:
+    resource: "@AppBundle/Resources/config/routing/warehouse.yml"
+    prefix:   /warehouse
+    
+app_document:
+    resource: "@AppBundle/Resources/config/routing/document.yml"
+    prefix:   /document
+    
+app_productimage:
+    resource: "@AppBundle/Resources/config/routing/productimage.yml"
+    prefix:   /productimage    
